@@ -388,22 +388,19 @@
                                     </svg>
                                 </li>
                                 <li class="list-group-item d-flex align-items-center py-md-3 px-md-5">
-                                    <input class="form-check-input me-3 mt-0" type="checkbox" value=""
-                                        id="firstCheckbox">
+                                    <input class="form-check-input me-3 mt-0" type="checkbox" value="" id="firstCheckbox" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <label class="form-check-label" for="firstCheckbox">Finish ticket update</label>
                                     <!-- Component_4 Badge -->
                                     <span class="badge text-bg-warning ms-auto py-2 px-3">URGENT</span>
                                 </li>
                                 <li class="list-group-item d-flex align-items-center py-md-3 px-md-5">
-                                    <input class="form-check-input me-3 mt-0" type="checkbox" value=""
-                                        id="secondCheckbox">
+                                    <input class="form-check-input me-3 mt-0" type="checkbox" value="" id="secondCheckbox"  data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <label class="form-check-label" for="secondCheckbox">Create new ticket
                                         example</label>
                                     <span class="badge text-bg-success ms-auto py-2 px-3">NEW</span>
                                 </li>
                                 <li class="list-group-item d-flex align-items-center py-md-3 px-md-5">
-                                    <input class="form-check-input me-3 mt-0" type="checkbox" value=""
-                                        id="thirdCheckbox">
+                                    <input class="form-check-input me-3 mt-0" type="checkbox" value="" id="thirdCheckbox" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <label class="form-check-label" for="thirdCheckbox">Update ticket report</label>
                                     <span class="badge text-bg-light ms-auto py-2 px-3">DEFAULT</span>
                                 </li>
@@ -416,6 +413,25 @@
             </section>
 
         </section>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tasks</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                You made a change!
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">OK</button>
+                </div>
+            </div>
+            </div>
+        </div>
     </main>
 
 
