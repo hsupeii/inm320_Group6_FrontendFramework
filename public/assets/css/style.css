@@ -9,7 +9,7 @@
     --grayscale-gray-lightest: #F0F1F7;
 }
 
-/* This applies from 0px to 600px */
+/* This applies from 0px to 768px */
 * {
     text-decoration: none;
     list-style: none;
@@ -278,6 +278,7 @@ hr {
 /* This applies from 768px onwards */
 @media (min-width: 768px) {
 
+    /* left sidebar */
     .sidebar {
         width: 255px;
     }
@@ -286,10 +287,12 @@ hr {
         display: initial;
     }
 
+    /* overview */
     .overview {
         margin-left: 255px;
     }
 
+    /* middle cards */
     .trends {
         border-right: 1px solid #DFE0EB;
     }
